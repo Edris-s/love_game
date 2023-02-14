@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--  
+    Document Title
+    =============================================
+    -->
+  <title>Valentine Game</title>
+  <!--  
+    Favicons
+    =============================================
+    -->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!--  
+    Stylesheets
+    =============================================
+    
+    -->
+  <!-- Default stylesheets-->
+  <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Template specific stylesheets-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+  <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+  <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+  <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+  <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+  <!-- Main stylesheet and color file-->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+</head>
+
+
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+  <main>
+
+    <!-- our works -->
+    <section class="module pb-0" id="works">
+      <div class="container">
+        <div class="row">
+          <div>
+            <h2 class="module-title font-alt">Lets Start</h2>
+            <div class="module-subtitle font-serif"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <ul class="filter font-alt" id="filters">
+              <li> <button class="item_font" id="0"><a onclick="myFunction0()" class="current wow fadeInUp" href="#" data-filter=".0"
+                    style="font-size: 20px;">Go</a></button></li>
+              <li> <button class="item_font" id="1"><a onclick="myFunction1()" class="wow fadeInUp" href="#" data-filter=".1"
+                    style="font-size: 20px;">1</a></button></li>
+              <li><button class="item_font" id="2"><a onclick="myFunction2()" class="wow fadeInUp" href="#" data-filter=".2" data-wow-delay="0.2s"
+                    style="font-size: 20px;">2
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="3"><a onclick="myFunction3()" class="wow fadeInUp" href="#" data-filter=".3" data-wow-delay="0.4s"
+                    style="font-size: 20px;">3
+                  </a></button></li>
+              <li><button class="item_font" id="4"><a onclick="myFunction4()" class="wow fadeInUp" href="#" data-filter=".4" data-wow-delay="0.6s"
+                    style="font-size: 20px;">4
+                  </a></button>
+              </li>
+              <li> <button class="item_font" id="5"><a onclick="myFunction5()" class=" wow fadeInUp" href="#" data-filter=".5"
+                    style="font-size: 20px;">5</a></button></li>
+              <li><button class="item_font" id="6"><a onclick="myFunction6()" class="wow fadeInUp" href="#" data-filter=".6" data-wow-delay="0.2s"
+                    style="font-size: 20px;">6
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="7"><a onclick="myFunction7()" class="wow fadeInUp" href="#" data-filter=".7" data-wow-delay="0.4s"
+                    style="font-size: 20px;">7
+                  </a></button></li>
+              <li><button class="item_font" id="8"><a onclick="myFunction8()" class="wow fadeInUp" href="#" data-filter=".8" data-wow-delay="0.6s"
+                    style="font-size: 20px;">8
+                  </a></button>
+              </li>
+              <li> <button class="item_font" id="9"><a onclick="myFunction9()" class="wow fadeInUp" href="#" data-filter=".9"
+                    style="font-size: 20px;">9</a></button></li>
+              <li><button class="item_font" id="10"><a onclick="myFunction10()" class="wow fadeInUp" href="#" data-filter=".10" data-wow-delay="0.2s"
+                    style="font-size: 20px;">10
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="11"><a onclick="myFunction11()" class="wow fadeInUp" href="#" data-filter=".11" data-wow-delay="0.4s"
+                    style="font-size: 20px;">11
+                  </a></button></li>
+              <li><button class="item_font" id="12"><a onclick="myFunction12()" class="wow fadeInUp" href="#" data-filter=".12" data-wow-delay="0.6s"
+                    style="font-size: 20px;">12
+                  </a></button>
+              </li>
+              <li> <button class="item_font" id="13"><a onclick="myFunction13()" class="wow fadeInUp" href="#" data-filter=".13"
+                    style="font-size: 20px;">13</a></button></li>
+              <li><button class="item_font" id="14"><a onclick="myFunction14()" class="wow fadeInUp" href="#" data-filter=".14" data-wow-delay="0.2s"
+                    style="font-size: 20px;">14
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="15"><a onclick="myFunction15()" class="wow fadeInUp" href="#" data-filter=".15" data-wow-delay="0.4s"
+                    style="font-size: 20px;">15
+                  </a></button></li>
+              <li><button class="item_font" id="16"><a onclick="myFunction16()" class="wow fadeInUp" href="#" data-filter=".16" data-wow-delay="0.6s"
+                    style="font-size: 20px;">16
+                  </a></button>
+              </li>
+              <li> <button class="item_font" id="17"><a onclick="myFunction17()" class=" wow fadeInUp" href="#" data-filter=".17"
+                    style="font-size: 20px;">17</a></button></li>
+              <li><button class="item_font" id="18"><a onclick="myFunction18()" class="wow fadeInUp" href="#" data-filter=".18" data-wow-delay="0.2s"
+                    style="font-size: 20px;">18
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="19"><a onclick="myFunction19()" class="wow fadeInUp" href="#" data-filter=".19" data-wow-delay="0.4s"
+                    style="font-size: 20px;">19
+                  </a></button></li>
+              <li><button class="item_font" id="20"><a onclick="myFunction20()" class="wow fadeInUp" href="#" data-filter=".20" data-wow-delay="0.6s"
+                    style="font-size: 20px;">20
+                  </a></button>
+              </li>
+              <li> <button class="item_font" id="21"><a onclick="myFunction21()" class="wow fadeInUp" href="#" data-filter=".21"
+                    style="font-size: 20px;">21</a></button></li>
+              <li><button class="item_font" id="22"><a onclick="myFunction22()" class="wow fadeInUp" href="#" data-filter=".22" data-wow-delay="0.2s"
+                    style="font-size: 20px;">22
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="23"><a onclick="myFunction23()" class="wow fadeInUp" href="#" data-filter=".23" data-wow-delay="0.4s"
+                    style="font-size: 20px;">23
+                  </a></button></li>
+              <li><button class="item_font" id="24"><a onclick="myFunction24()" class="wow fadeInUp" href="#" data-filter=".24" data-wow-delay="0.6s"
+                    style="font-size: 20px;">24
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="25"><a onclick="myFunction25()" class="wow fadeInUp" href="#" data-filter=".25" data-wow-delay="0.6s"
+                    style="font-size: 20px;">25
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="26"><a onclick="myFunction26()" class="wow fadeInUp" href="#" data-filter=".26" data-wow-delay="0.6s"
+                    style="font-size: 20px;">26
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="27"><a onclick="myFunction27()" class="wow fadeInUp" href="#" data-filter=".27" data-wow-delay="0.6s"
+                    style="font-size: 20px;">27
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="28"><a onclick="myFunction28()" class="wow fadeInUp" href="#" data-filter=".28" data-wow-delay="0.6s"
+                    style="font-size: 20px;">28
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="29"><a onclick="myFunction29()" class="wow fadeInUp" href="#" data-filter=".29" data-wow-delay="0.6s"
+                    style="font-size: 20px;">29
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="30"><a onclick="myFunction30()" class="wow fadeInUp" href="#" data-filter=".30" data-wow-delay="0.6s"
+                    style="font-size: 20px;">30
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="31"><a onclick="myFunction31()" class="wow fadeInUp" href="#" data-filter=".31" data-wow-delay="0.6s"
+                    style="font-size: 20px;">31
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="32"><a onclick="myFunction32()" class="wow fadeInUp" href="#" data-filter=".32" data-wow-delay="0.6s"
+                    style="font-size: 20px;">32
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="33"><a onclick="myFunction33()" class="wow fadeInUp" href="#" data-filter=".33" data-wow-delay="0.6s"
+                    style="font-size: 20px;">33
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="34"><a onclick="myFunction34()" class="wow fadeInUp" href="#" data-filter=".34" data-wow-delay="0.6s"
+                    style="font-size: 20px;">34
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="35"><a onclick="myFunction35()" class="wow fadeInUp" href="#" data-filter=".35" data-wow-delay="0.6s"
+                    style="font-size: 20px;">35
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="36"><a onclick="myFunction36()" class="wow fadeInUp" href="#" data-filter=".36" data-wow-delay="0.6s"
+                    style="font-size: 20px;">36
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="37"><a onclick="myFunction37()" class="wow fadeInUp" href="#" data-filter=".37" data-wow-delay="0.6s"
+                    style="font-size: 20px;">37
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="38"><a onclick="myFunction38()" class="wow fadeInUp" href="#" data-filter=".38" data-wow-delay="0.6s"
+                    style="font-size: 20px;">38
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="39"><a onclick="myFunction39()" class="wow fadeInUp" href="#" data-filter=".39" data-wow-delay="0.6s"
+                    style="font-size: 20px;">39
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="40"><a onclick="myFunction40()" class="wow fadeInUp" href="#" data-filter=".40" data-wow-delay="0.6s"
+                    style="font-size: 20px;">40
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="41"><a onclick="myFunction41()" class="wow fadeInUp" href="#" data-filter=".41" data-wow-delay="0.6s"
+                    style="font-size: 20px;">41
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="42"><a onclick="myFunction42()" class="wow fadeInUp" href="#" data-filter=".42" data-wow-delay="0.6s"
+                    style="font-size: 20px;">42
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="43"><a onclick="myFunction43()" class="wow fadeInUp" href="#" data-filter=".43" data-wow-delay="0.6s"
+                    style="font-size: 20px;">43
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="44"><a onclick="myFunction44()" class="wow fadeInUp" href="#" data-filter=".44" data-wow-delay="0.6s"
+                    style="font-size: 20px;">44
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="45"><a onclick="myFunction45()" class="wow fadeInUp" href="#" data-filter=".45" data-wow-delay="0.6s"
+                    style="font-size: 20px;">45
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="46"><a onclick="myFunction46()" class="wow fadeInUp" href="#" data-filter=".46" data-wow-delay="0.6s"
+                    style="font-size: 20px;">46
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="47"><a onclick="myFunction47()" class="wow fadeInUp" href="#" data-filter=".47" data-wow-delay="0.6s"
+                    style="font-size: 20px;">47
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="48"><a onclick="myFunction48()" class="wow fadeInUp" href="#" data-filter=".48" data-wow-delay="0.6s"
+                    style="font-size: 20px;">48
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="49"><a onclick="myFunction49()" class="wow fadeInUp" href="#" data-filter=".49" data-wow-delay="0.6s"
+                    style="font-size: 20px;">49
+                  </a></button>
+              </li>
+              <li><button class="item_font" id="50"><a onclick="myFunction50()" class="wow fadeInUp" href="#" data-filter=".50" data-wow-delay="0.6s"
+                    style="font-size: 20px;">50
+                  </a></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="works-grid works-grid-gut works-grid-3 works-hover-d shadow_img" id="works-grid">
+
+          <li class="work-item 0">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">1</h2>
+                <h4 class="hhhh">You have to select a number between 1 - 50... <br>it can be a <br> question <br>a statment <br> or <br> an action </h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 1">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">1</h2>
+                <h4 class="hhhh">My favorite place to be touched is …</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="work-item 2">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">2</h2>
+                <h4 class="hhhh">What makes you feel loved?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  3">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">3</h2>
+                <h4 class="hhhh">when was your most romantic time with me?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  4">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">4</h2>
+                <h4 class="hhhh">I love it when you initiate intimacy by …</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  5">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">5</h2>
+                <h4 class="hhhh">I get more horny when you …</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  6">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">6</h2>
+                <h4 class="hhhh">Describe your dream vacation.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  7">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">7</h2>
+                <h4 class="hhhh">What makes you feel safe?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  8">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">8</h2>
+                <h4 class="hhhh">Share your favorite memory from when we were dating.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  9">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">9</h2>
+                <h4 class="hhhh">I love you because …</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  10">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">10</h2>
+                <h4 class="hhhh">I get butterflies when …</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  11">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">11</h2>
+                <h4 class="hhhh">What is your idea of a romantic gift?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  12">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">12</h2>
+                <h4 class="hhhh">What is the best dinner we’ve ever had?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  13">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">13</h2>
+                <h4 class="hhhh">What makes you angry? any action or statment of mine</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  14">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">14</h2>
+                <h4 class="hhhh">What is something that we do together that makes you happy?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  15">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">15</h2>
+                <h4 class="hhhh">Write me a love note.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  16">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">16</h2>
+                <h4 class="hhhh">Remove 1 piece of clothing.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  17">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">17</h2>
+                <h4 class="hhhh">Lip Kiss for 2 minutes, no hands.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  18">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">18</h2>
+                <h4 class="hhhh">body massage.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  19">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">19</h2>
+                <h4 class="hhhh">Turn on a romantic song and slow dance.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  20">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">20</h2>
+                <h4 class="hhhh">Kiss me how YOU like to be kissed.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  21">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">21</h2>
+                <h4 class="hhhh">Snap a sexy selfie.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  22">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">22</h2>
+                <h4 class="hhhh">Kiss my neck.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  23">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">23</h2>
+                <h4 class="hhhh">2 mins hug.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 24">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">24</h2>
+                <h4 class="hhhh">Tell me something which you havent shared it with me yet.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  25">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">25</h2>
+                <h4 class="hhhh">Give me a hidden hickey.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  26">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">26</h2>
+                <h4 class="hhhh">whats your idea about blowjobs?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item  27">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">27</h2>
+                <h4 class="hhhh">What’s your favourite position?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 28">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">28</h2>
+                <h4 class="hhhh">What’s the longest you’ve ever gone without sex?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 50">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">50</h2>
+                <h4 class="hhhh">Rough or romantic?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 29">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">29</h2>
+                <h4 class="hhhh">What’s the best thing about our sex life?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 30">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">30</h2>
+                <h4 class="hhhh">What’s your favourite part of my body?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 31">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">31</h2>
+                <h4 class="hhhh">What’s your dirtiest sexual fantasy?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 32">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">32</h2>
+                <h4 class="hhhh">If we were out for dinner and I said I wanted to have sex right now, what would you do?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 33">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">33</h2>
+                <h4 class="hhhh">What do you say is your sexiest body part?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 34">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">34</h2>
+                <h4 class="hhhh">What do you say is the sexiest thing a man can do for his woman? and vice-versa</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 35">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">35</h2>
+                <h4 class="hhhh">What is your favorite part to be touched?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 36">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">36</h2>
+                <h4 class="hhhh">What makes you lose interest in someone?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 37">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">37</h2>
+                <h4 class="hhhh">show your favorite photo from your gallery?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 38">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">38</h2>
+                <h4 class="hhhh">What are three things you are looking for in your partner?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 39">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">39</h2>
+                <h4 class="hhhh">What's your biggest turn on?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 40">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">40</h2>
+                <h4 class="hhhh">What's a sex position that you've never tried that you're curious about?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 41">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">41</h2>
+                <h4 class="hhhh">If there’s one thing you’d want to change about me, what is it?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 42">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">42</h2>
+                <h4 class="hhhh">What was on your mind the last time we were having sex?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 43">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">43</h2>
+                <h4 class="hhhh">What are the three things we both enjoy during sex?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 44">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">44</h2>
+                <h4 class="hhhh">What's a naughty dream you've had?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 45">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">45</h2>
+                <h4 class="hhhh">Do you prefer giving or receiving oral sex?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 46">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">46</h2>
+                <h4 class="hhhh">Do a sexy action you havnt done yet.</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 47">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">47</h2>
+                <h4 class="hhhh">whats one thing you like the most about our realtionship?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 48">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">48</h2>
+                <h4 class="hhhh">what score u give to our relationship 1 - 10?</h4>
+              </div>
+            </div>
+          </li>
+          <li class="work-item 49">
+            <div class="fancy_card">
+              <div class="card ">
+                <h2 class="hhhh">49</h2>
+                <h4 class="hhhh">what is my worst behaviour till now which you want me to not do it anymore? </h4>
+              </div>
+            </div>
+          </li>
+          
+
+          
+
+        </ul>
+      </div>
+    </section>
+
+  </main>
+  <!--  
+    JavaScripts
+    =============================================
+    -->
+    <script>
+      function myFunction1() {
+        document.getElementById("1").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction2() {
+        document.getElementById("2").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction3() {
+        document.getElementById("3").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction4() {
+        document.getElementById("4").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction5() {
+        document.getElementById("5").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction6() {
+        document.getElementById("6").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction7() {
+        document.getElementById("7").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction8() {
+        document.getElementById("8").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction9() {
+        document.getElementById("9").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction10() {
+        document.getElementById("10").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction11() {
+        document.getElementById("11").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction12() {
+        document.getElementById("12").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction13() {
+        document.getElementById("13").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction14() {
+        document.getElementById("14").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction15() {
+        document.getElementById("15").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction16() {
+        document.getElementById("16").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction17() {
+        document.getElementById("17").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction18() {
+        document.getElementById("18").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction19() {
+        document.getElementById("19").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction20() {
+        document.getElementById("20").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction21() {
+        document.getElementById("21").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction22() {
+        document.getElementById("22").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction23() {
+        document.getElementById("23").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction24() {
+        document.getElementById("24").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction25() {
+        document.getElementById("25").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction26() {
+        document.getElementById("26").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction27() {
+        document.getElementById("27").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction28() {
+        document.getElementById("28").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction29() {
+        document.getElementById("29").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction30() {
+        document.getElementById("30").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction31() {
+        document.getElementById("31").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction32() {
+        document.getElementById("32").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction33() {
+        document.getElementById("33").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction34() {
+        document.getElementById("34").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction35() {
+        document.getElementById("35").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction36() {
+        document.getElementById("36").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction37() {
+        document.getElementById("37").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction38() {
+        document.getElementById("38").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction39() {
+        document.getElementById("39").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction40() {
+        document.getElementById("40").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction41() {
+        document.getElementById("41").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction42() {
+        document.getElementById("42").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction43() {
+        document.getElementById("43").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction44() {
+        document.getElementById("44").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction45() {
+        document.getElementById("45").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction46() {
+        document.getElementById("46").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction47() {
+        document.getElementById("47").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction48() {
+        document.getElementById("48").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction49() {
+        document.getElementById("49").style.backgroundColor = "lightblue";
+      }
+      </script>
+    <script>
+      function myFunction50() {
+        document.getElementById("50").style.backgroundColor = "lightblue";
+      }
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="assets/lib/jquery/dist/jquery.js"></script>
+  <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/lib/wow/dist/wow.js"></script>
+  <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+  <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+  <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+  <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+  <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="assets/lib/smoothscroll.js"></script>
+  <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+  <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
